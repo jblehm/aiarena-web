@@ -9,6 +9,7 @@ urlpatterns = [
     path("v1/", include("aiarena.api.arenaclient.v1.urls")),
     path("v2/", include("aiarena.api.arenaclient.v2.urls")),
     path("v3/", include("aiarena.api.arenaclient.v3.urls")),
+    path("v4/", include("aiarena.api.arenaclient.v4.urls")),
 ]
 
 router = DefaultRouter()
